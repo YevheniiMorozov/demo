@@ -3,7 +3,7 @@ version: '3.3'
 services:
   app:
     build: .
-    container_name: flask_app
+    container_name: flask_app_v2_demo
     command: bash -c 'python3 app.py'
     ports:
       - '5100:5100'
