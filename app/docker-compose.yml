@@ -6,5 +6,5 @@ services:
     container_name: flask_app
     command: bash -c 'python3 app.py'
     ports:
-      - '5000:5000'
+      - '5100:5100'
     restart: always

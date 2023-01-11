@@ -8,5 +8,5 @@ RUN pip install -r requirements.txt && rm -rf /root/.cache/pip
 
 COPY . .
 
-EXPOSE 5000
+EXPOSE 5100
 
